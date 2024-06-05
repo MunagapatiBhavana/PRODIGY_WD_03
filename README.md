@@ -1,1 +1,2 @@
 # PRODIGY_WD_03
+I have designed and developed a Tic-Tac-Toe web application using HTML,CSS and Javascript. The foundation of the application is laid out using HTML, ensuring clear and organized elements for user interaction.By implementing functions to handle user clicks,track game start and check for winning conditions.with these technologies and functionalities user can play against each other or against an AI opponent aiming to get three markers in  a row to win the game.
