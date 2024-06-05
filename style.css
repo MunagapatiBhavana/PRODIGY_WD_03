@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://res.cloudinary.com/db94auffn/image/upload/v1717512053/seamless-pattern-game-tic-tac-260nw-709731865_f1atcr.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+nav {
+    width: 100%;
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    
+    padding: 30px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+nav .left {
+    color: white;
+}
+
+nav .right a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding-right: 40px;
+}
+nav .right a:hover {
+    color: blueviolet;
+}
+
+.home, .game {
+    color: greenyellow;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 25px;
+
+    cursor: pointer;
+}
+
+.game {
+    display: none;
+}
